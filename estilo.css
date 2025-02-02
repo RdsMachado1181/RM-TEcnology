@@ -27,7 +27,7 @@ body {
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: flex;
     align-items: center;
     padding: 20px;
     background-color: #2d2d2d;
@@ -44,9 +44,8 @@ body {
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: flex;
     align-items: center;
-    flex-direction: column;
     padding: 20px;
     background-color: #ffffff;
 }
