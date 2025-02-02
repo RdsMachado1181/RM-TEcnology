@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - RM Technology</title>
+  <link rel="stylesheet" href="estilo2.css"> <!-- Referência ao arquivo CSS -->
+</head>
+<body>
+
+  <!-- Topo -->
+  <header>
+    <div class="topo">
+      <h1>RM Technology</h1>
+    </div>
+  </header>
+
+  <!-- Formulário de Cadastro -->
+  <div class="formulario-container">
+    <form class="cadastro-form">
+      <h2>Cadastro</h2>
+
+      <!-- Campos do formulário -->
+      <input type="text" id="nome"  name="nome" placeholder="Digite seu nome" required>
+      <input type="email" id="email"  name="email" placeholder="Digite seu email" required>
+      <input type="tel" id="telefone"  name="telefone" placeholder="Digite seu telefone" required>
+
+      <!-- Campos para estado e cidade -->
+      <select name="estado" required>
+        <option value="" disabled selected>Escolha seu estado</option>
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="MG">Minas Gerais</option>
+        <!-- Adicione mais estados conforme necessário -->
+      </select>
+
+      <input type="text" name="cidade" placeholder="Digite sua cidade" required>
+
+      <!-- Botão de Cadastro -->
+      <button type="submit">Cadastrar</button>
+
+      <div class="links">
+        <a href="index.html">Já tem uma conta? Faça login</a>
+      </div>
+    </form>
+</body>
+</html>
